@@ -1,0 +1,178 @@
+--- ssf_rw_v2.txt	2011-05-02 07:03:02.000000000 +0900
++++ ssf_rw_v2_en.txt	2011-05-02 07:07:19.000000000 +0900
+@@ -1 +1 @@
+-﻿'ssf-begin
++'ssf-begin
+@@ -5 +5 @@
+-'   name;ssf_rw_v2.xls/F3SsfRwV2
++'   name;ssf_rw_v2_en.xls/F3SsfRwV2
+@@ -45 +45 @@
+-'         ;名称
++'         ;Public Name
+@@ -47,2 +47,2 @@
+-'         ;コメント
+-'         ;SSFテキストとエクセルブックの変換を行う
++'         ;Local Comment
++'         ;to convert between SSF texts and Excel Books
+@@ -51 +51 @@
+-'         ;著作権
++'         ;Copyright
+@@ -53,3 +53,3 @@
+-'         ;ライセンス
+-'         ;自律, 自由, 公正, http://cowares.nobody.jp
+-'         ;作者
++'         ;License
++'         ;Fortitudinous, Free, Fair, http://cowares.nobody.jp
++'         ;Contributor
+@@ -57 +57 @@
+-'         ;初版
++'         ;Since
+@@ -59 +59 @@
+-'         ;配布元
++'         ;Url
+@@ -61 +61 @@
+-'         ;更新
++'         ;Timestamp
+@@ -66,2 +66,2 @@
+-'         ;ボタンの表示
+-'         ;ボタンの機能
++'         ;Button Face
++'         ;Button Tips
+@@ -77,2 +77,2 @@
+-'         ;コピーSSF
+-'         ;クリップボードにSSFを書き出す。
++'         ;Copy as SSF
++'         ;Write SSF into Clipboard
+@@ -86,2 +86,2 @@
+-'         ;ペーストSSF
+-'         ;クリップボードのSSFを取り込む。
++'         ;Paste from SSF
++'         ;Read SSF from Clipboard
+@@ -93,2 +93,2 @@
+-'         ;メモ帳へ
+-'         ;メモ帳にSSFを書き出す。
++'         ;to Notepad
++'         ;Write SSF into a Notepad
+@@ -102,2 +102,2 @@
+-'         ;メモ帳から
+-'         ;メモ帳のSSFを取り込む。
++'         ;from Notepad
++'         ;Read SSF from a Notepad
+@@ -110 +110 @@
+-'         ;連携中のメモ帳。
++'         ;connection to Notepad
+@@ -116,2 +116,2 @@
+-'         ;ファイルへ
+-'         ;ファイルにSSFを書き出す。
++'         ;to File
++'         ;Write SSF into a File
+@@ -125,2 +125,2 @@
+-'         ;ファイルから
+-'         ;ファイルのSSFを取り込む。
++'         ;from File
++'         ;Read SSF from a File
+@@ -132,2 +132,2 @@
+-'         ;文字コード
+-'         ;ファイルの文字コードを指定する。
++'         ;Encoding
++'         ;Character Encoding of File
+@@ -144,2 +144,2 @@
+-'         ;対象
+-'         ;SSF書き出しの対象を指定する。
++'         ;Object
++'         ;What is converted when writing to SSF
+@@ -152,5 +152,5 @@
+-'         ;ブック
+-'         ;シート
+-'         ;選択セル
+-'         ;モジュール
+-'         ;コード
++'         ;Book
++'         ;Sheet
++'         ;Cells
++'         ;Modules
++'         ;Code
+@@ -158,2 +158,2 @@
+-'         ;モジュール
+-'         ;VBAコードの扱いを指定する。
++'         ;Module
++'         ;How VBA codes are converted
+@@ -164,3 +164,3 @@
+-'         ;VBA有り
+-'         ;VBA無し
+-'         ;VBA分離
++'         ;with VBA
++'         ;without VBA
++'         ;separate VBA
+@@ -168,2 +168,2 @@
+-'         ;混在
+-'         ;SSF宣言行より前の情報を取り込まない。
++'         ;Mixed
++'         ;use SSF declares to remove non SSF sections
+@@ -177,2 +177,2 @@
+-'         ;ログ
+-'         ;メモ帳にログを出力する。
++'         ;Log
++'         ;Show verbose logs on Notepad
+@@ -189 +189 @@
+-'         ;このシートを表示する。
++'         ;Show this sheet
+@@ -4598 +4598 @@
+-    Case "center", "c", "中", "中央"
++    Case "center", "c"
+@@ -4602 +4602 @@
+-    Case "distributed", "均", "均等"
++    Case "distributed"
+@@ -4608 +4608 @@
+-    Case "justify", "両", "両端"
++    Case "justify"
+@@ -4610 +4610 @@
+-    Case "left", "l", "左"
++    Case "left", "l"
+@@ -4612 +4612 @@
+-    Case "right", "r", "右"
++    Case "right", "r"
+@@ -4653 +4653 @@
+-    Case "yes", "y", "true", "t", "on", "enable", "use", "真", "はい"
++    Case "yes", "y", "true", "t", "on", "enable", "use"
+@@ -4702 +4702 @@
+-    Case "", "bottom", "b", "下"
++    Case "", "bottom", "b"
+@@ -4704 +4704 @@
+-    Case "center", "c", "中", "中央"
++    Case "center", "c"
+@@ -4706 +4706 @@
+-    Case "distributed", "均", "均等"
++    Case "distributed"
+@@ -4708 +4708 @@
+-    Case "justify", "両", "両端"
++    Case "justify"
+@@ -4710 +4710 @@
+-    Case "top", "t", "上"
++    Case "top", "t"
+@@ -4932 +4932 @@
+-    Case "mm", "ミリ"
++    Case "mm"
+@@ -4935 +4935 @@
+-    Case "cm", "センチ"
++    Case "cm"
+@@ -4938 +4938 @@
+-    Case "inch", "インチ", "吋"
++    Case "inch"
+@@ -4941,2 +4941,2 @@
+-    Case "sun", "寸"
+-        ' 寸: = 30.303mm
++    Case "sun"
++        ' sun: = 30.303mm
+@@ -4944 +4944 @@
+-    Case "point", "pt", "ポイント"
++    Case "point", "pt"
+@@ -4947 +4947 @@
+-    Case "zero", "0", "零"
++    Case "zero", "0"
+@@ -4963 +4963 @@
+-        Case "zero", "0", "零"
++        Case "zero", "0"
+@@ -4979 +4979 @@
+-        Case "zero", "0", "零"
++        Case "zero", "0"
